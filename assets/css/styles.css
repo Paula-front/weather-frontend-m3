@@ -1,4 +1,6 @@
-/* Estilos generales */
+/* =========================
+   ESTILOS GENERALES
+========================= */
 body {
   background: linear-gradient(180deg, #0f172a 0%, #111827 100%);
   color: #f8fafc;
@@ -6,18 +8,24 @@ body {
   min-height: 100vh;
 }
 
-/* Hero */
+/* =========================
+   HERO
+========================= */
 .hero {
   background: linear-gradient(135deg, rgba(14, 165, 233, 0.35), rgba(59, 130, 246, 0.2));
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-/* Navbar */
+/* =========================
+   NAVBAR
+========================= */
 .navbar-brand {
   letter-spacing: 0.3px;
 }
 
-/* Tarjetas de ciudades */
+/* =========================
+   TARJETAS DE CIUDADES
+========================= */
 .tarjeta-ciudad {
   background-color: #1e293b;
   border: 1px solid rgba(255, 255, 255, 0.06);
@@ -38,12 +46,12 @@ body {
 }
 
 .icono-clima {
-  width: 52px;
-  height: 52px;
+  width: 56px;
+  height: 56px;
   object-fit: contain;
-  background-color: #000;
-  padding: 6px;
+  padding: 4px;
   border-radius: 12px;
+  background: transparent;
 }
 
 .card-title,
@@ -52,10 +60,14 @@ body {
   color: #f8fafc;
 }
 
-/* Botones */
+/* =========================
+   BOTONES
+========================= */
 .btn-primary {
   background-color: #2563eb;
   border-color: #2563eb;
+  border-radius: 0.8rem;
+  font-weight: 600;
 }
 
 .btn-primary:hover {
@@ -63,17 +75,25 @@ body {
   border-color: #1d4ed8;
 }
 
+.btn-outline-light {
+  border-radius: 0.8rem;
+}
+
 .btn-outline-light:hover {
   color: #0f172a;
 }
 
-/* Sección acerca de */
+/* =========================
+   SECCIÓN ACERCA
+========================= */
 .seccion-acerca {
   background-color: rgba(30, 41, 59, 0.92);
   border: 1px solid rgba(255, 255, 255, 0.06);
 }
 
-/* Detalle */
+/* =========================
+   DETALLE
+========================= */
 .detalle-card {
   background-color: #1e293b;
   border: 1px solid rgba(255, 255, 255, 0.06);
@@ -87,15 +107,17 @@ body {
 }
 
 .icono-detalle {
-  width: 64px;
-  height: 64px;
+  width: 68px;
+  height: 68px;
   object-fit: contain;
-  background-color: #000;
-  padding: 8px;
+  padding: 6px;
   border-radius: 14px;
+  background: transparent;
 }
 
-/* Tarjetas del pronóstico */
+/* =========================
+   TARJETAS DEL PRONÓSTICO
+========================= */
 .tarjeta-pronostico {
   background-color: #1e293b;
   border: 1px solid rgba(255, 255, 255, 0.06);
@@ -105,21 +127,27 @@ body {
 }
 
 .tarjeta-pronostico:hover {
-  transform: translateY(-3px);
+  transform: scale(1.03);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.22);
 }
 
-/* Textos secundarios */
+/* =========================
+   TEXTOS SECUNDARIOS
+========================= */
 .text-light-subtle {
   color: rgba(248, 250, 252, 0.72) !important;
 }
 
-/* Footer */
+/* =========================
+   FOOTER
+========================= */
 footer {
   border-top: 1px solid rgba(255, 255, 255, 0.06);
 }
 
-/* Responsive */
+/* =========================
+   RESPONSIVE
+========================= */
 @media (max-width: 420px) {
   .hero {
     padding-top: 2.5rem !important;
@@ -131,13 +159,13 @@ footer {
   }
 
   .icono-clima {
-    width: 46px;
-    height: 46px;
+    width: 48px;
+    height: 48px;
   }
 
   .icono-detalle {
-    width: 56px;
-    height: 56px;
+    width: 58px;
+    height: 58px;
   }
 
   .card-body {
