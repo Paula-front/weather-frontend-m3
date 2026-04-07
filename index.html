@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Weather Frontend M2 - Inicio</title>
+  <title>Clima de ciudades de Chile</title>
 
   <!-- Bootstrap CSS -->
   <link
@@ -51,12 +51,12 @@
       </div>
     </nav>
 
-    <!-- Hero / portada -->
+    <!-- Hero -->
     <section class="hero text-white text-center py-5">
       <div class="container">
-        <h1 class="display-5 fw-bold mb-3">Clima de ciudades de Chile</h1>
+        <h1 class="display-5 fw-bold">🌦️ Clima de ciudades de Chile</h1>
         <p class="lead mb-0">
-          Consulta el estado del tiempo actual y revisa el pronóstico semanal de 10 ciudades.
+          Consulta el estado del tiempo actual y revisa el pronóstico semanal.
         </p>
       </div>
     </section>
@@ -67,14 +67,14 @@
     <section class="container">
       <div class="row mb-4">
         <div class="col-12 text-center">
-          <h2 class="fw-bold">Localidades disponibles</h2>
+          <h2 class="fw-bold">Selecciona una ciudad</h2>
           <p class="text-light-subtle">
-            Selecciona una ciudad para ver el detalle del clima y su pronóstico de la semana.
+             Consulta su clima actual y pronóstico.
           </p>
         </div>
       </div>
 
-      <!-- Aquí se insertan las cards con JS -->
+      <!-- Cards dinámicas -->
       <div class="row g-4" id="contenedor-ciudades"></div>
     </section>
 
@@ -83,12 +83,10 @@
       <article class="p-4 rounded-4 seccion-acerca">
         <h3 class="fw-bold mb-3">Acerca del proyecto</h3>
         <p class="mb-2">
-          Este proyecto corresponde al frontend MVP de una app de clima desarrollada con HTML5,
-          Bootstrap y JavaScript.
+          Este proyecto corresponde al desarrollo de un MVP frontend de una aplicación del clima.
         </p>
         <p class="mb-0">
-          Permite visualizar el clima actual de distintas ciudades chilenas y acceder a una vista
-          de detalle con pronóstico semanal.
+          Permite visualizar información climática de distintas ciudades y acceder a su pronóstico semanal.
         </p>
       </article>
     </section>
@@ -107,8 +105,9 @@
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
   ></script>
 
-  <!-- JS propio -->
+  <!-- JS -->
   <script src="assets/js/data.js"></script>
   <script src="assets/js/main.js"></script>
+
 </body>
 </html>
