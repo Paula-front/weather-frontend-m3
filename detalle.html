@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Detalle del Clima</title>
+  <title>Detalle del clima</title>
 
   <!-- Bootstrap -->
   <link
@@ -14,10 +14,13 @@
   <!-- CSS -->
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
+
 <body>
 
-  <!-- Navbar -->
+  <!-- HEADER -->
   <header>
+
+    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
       <div class="container">
         <a class="navbar-brand fw-bold" href="index.html">🌦️ Weather Frontend M2</a>
@@ -33,33 +36,47 @@
 
         <div class="collapse navbar-collapse" id="menuNavbar">
           <ul class="navbar-nav ms-auto">
+
             <li class="nav-item">
               <a class="nav-link" href="index.html">Inicio</a>
             </li>
+
             <li class="nav-item">
-              <a class="nav-link active" href="detalle.html">Detalle</a>
+              <a class="nav-link active" href="#">Detalle</a>
             </li>
+
           </ul>
         </div>
       </div>
     </nav>
+
   </header>
 
-  <!-- Main -->
+  <!-- MAIN -->
   <main class="container py-5">
 
-    <!-- Detalle principal -->
+    <!-- MENSAJE SI NO HAY DATOS -->
+    <section id="mensaje-error" class="text-center mb-4"></section>
+
+    <!-- DETALLE -->
     <section id="detalle-ciudad" class="mb-5"></section>
 
-    <!-- Pronóstico semanal -->
+    <!-- PRONÓSTICO -->
     <section>
-      <h3 class="fw-bold mb-4 text-center">Pronóstico semanal</h3>
+      <h2 class="fw-bold mb-4 text-center">Pronóstico semanal</h2>
       <div class="row g-3" id="pronostico"></div>
     </section>
 
+    <!-- BOTÓN VOLVER -->
+    <div class="text-center mt-5">
+      <a href="index.html" class="btn btn-outline-light">
+        ← Volver al inicio
+      </a>
+    </div>
+
   </main>
 
-  <!-- Footer -->
+  <!-- FOOTER -->
   <footer class="bg-dark text-white py-4 mt-5">
     <div class="container text-center">
       <p class="mb-0">Weather Frontend M2</p>
