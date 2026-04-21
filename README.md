@@ -127,7 +127,7 @@ weather-frontend-m3/
 
 ## 🔗 Enlace del repositorio
 
-👉 (https://github.com/Paula-front/weather-frontend-m3.git)
+👉(https://github.com/Paula-front/weather-frontend-m3)
 
 ---
 
